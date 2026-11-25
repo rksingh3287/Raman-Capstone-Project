@@ -1,0 +1,8 @@
+Situation
+From January to June 2026, Mamaearth generated INR 97,358.30 in cleaned revenue across 175 orders. Comparing against the raw SQL total of INR 99,860.20 showed a difference of INR 2,501.90 from 5 duplicate orders. After removing two bulk outlier orders that pushed 2026-01 from INR 11,637.10 up to INR 29,582.10, March (2026-03) is the actual peak month with INR 20,318.90 in revenue.
+
+Complication
+Returns are much higher on COD orders at 44.4%, compared to 14.7% for CARD and 18.9% for UPI. Looking closer by city tier, COD orders in Tier-2 cities have the highest return rate at 54.5%. Higher discounts also do not lower returns.
+
+Resolution
+Ops and finance teams should focus on COD + Tier-2 orders (54.5% return rate) by adding COD order confirmation or prepaid nudges toward CARD (14.7%) and UPI (18.9%), and fix the checkout double-submit issue causing the INR 2,501.90 duplicate discrepancy.
